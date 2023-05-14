@@ -1,0 +1,31 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+input, label {
+    margin: 5px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.summaryTbl tr td {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 20px;
+    width: 50%;
+    text-align: justify;
+}
+.summaryTbl tr td:nth-child(1) {
+    padding-left: 15%;
+}
+.summaryTbl tr td:nth-child(2) {
+    text-align: center;
+}
+button {
+    align-self: center;
+    width: 20%;
+    cursor: not-allowed;
+}
